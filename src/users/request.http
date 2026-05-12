@@ -4,18 +4,19 @@ POST http://localhost:3300/auth/signup
 Content-Type: application/json
 
 {
-    "email": "abcd@gmail.com",
+    "email": "abcde@gmail.com",
     "password": "1234"
 }
 
-### Signin
+### Signin as an existing user
 POST http://localhost:3300/auth/signin
 Content-Type: application/json
 
 {
-    "email": "abc@gmail.com",
+    "email": "abcde@gmail.com",
     "password": "1234"
 }
+
 
 
 ### Find a particular user with a given ID 
